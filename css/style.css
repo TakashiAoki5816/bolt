@@ -3,6 +3,10 @@
   margin: 0 auto;
 }
 
+.main {
+  background-color: #f2f2f2;
+}
+
 .header {
   height: 80px;
   background-color: #fff;
@@ -18,14 +22,27 @@
 
 .bolt__contactbox {
   background-color: #74cfae;
+  padding: 14px 12px;
 }
 
-.contact {
+.contact-font {
   font-size: 12px;
-  padding: 14px 12px;
   color: #fff;
 }
 
 .main__theme {
+  text-align: center;
+  padding: 250px;
+}
+
+.bolt-theme {
   color: #74cfae;
+  font-size: 90px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.bolt-subtheme {
+  font-size: 30px;
+  color: #c0c0c0;
 }
