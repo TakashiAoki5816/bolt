@@ -50,13 +50,21 @@
   color: #c0c0c0;
 }
 
-.main__section_what {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+.main__section {
   background-color: #74cfae;
   padding-top: 50px;
   text-align: center;
+}
+
+.main__section_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.main__section_textbox {
+  width: 750px;
+  color: #fff;
 }
 
 .section-title {
@@ -66,4 +74,6 @@
 
 .section-text {
   font-size: 20px;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
 }
