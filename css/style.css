@@ -2,11 +2,13 @@
   background-color: #f2f2f2;
 }
 
+/* inner config */
 .inner {
   max-width: 1100px;
   margin: 0 auto;
 }
 
+/* Header */
 .header {
   background-color: #fff;
 }
@@ -33,6 +35,7 @@
   color: #fff;
 }
 
+/* Bolt Theme */
 .main__theme {
   text-align: center;
   padding: 250px;
@@ -50,7 +53,8 @@
   color: #c0c0c0;
 }
 
-.main__section {
+/* WHAT WE CAN DO? */
+.main__section_what {
   background-color: #74cfae;
   padding-top: 50px;
   text-align: center;
@@ -76,4 +80,38 @@
   font-size: 20px;
   line-height: 1.5em;
   overflow-wrap: break-word;
+}
+
+/* OUR LATEST WORK */
+
+.section__works_inner {
+  text-align: center;
+}
+
+.section__works_title {
+  padding: 60px 0 40px 0;
+}
+
+.section__works_img {
+  vertical-align: middle;
+}
+
+.section__works_img:nth-child(-n + 4) {
+  margin-bottom: 80px;
+}
+
+.section__works_img:nth-child(2) {
+  margin-right: 100px;
+}
+
+.section__works_img:nth-child(4) {
+  margin-left: 100px;
+}
+
+.section__works_img:nth-child(5) {
+  margin-right: 100px;
+}
+
+.section__works_img:nth-child(7) {
+  margin-left: 100px;
 }
