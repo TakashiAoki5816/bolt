@@ -196,3 +196,15 @@
 .sns-box:hover {
   background-color: #fff;
 }
+
+/* footer */
+.footer {
+  height: 61px;
+  background-color: #74cfae;
+}
+
+.copyright {
+  padding: 20px 0 25px 0;
+  color: #fff;
+  float: right;
+}
