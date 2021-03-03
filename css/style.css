@@ -139,10 +139,10 @@
 /* メールフォーム */
 
 .email-form-inner {
-  padding: 90px 0 70px 0;
-  width: 750px;
-  height: 42px;
   display: flex;
+  padding: 90px 0 70px 0;
+  width: 800px;
+  height: 42px;
 }
 
 .email-form_textbox {
@@ -155,17 +155,14 @@
   line-height: 1.5em;
 }
 
-.email-form_button {
-  background-color: #74cfae;
-  padding: 14px 20px;
-}
-
 .button_text {
-  display: block;
-  text-decoration: none;
-  white-space: nowrap;
+  display: inline-block;
   font-size: 12px;
   color: #fff;
+  background-color: #74cfae;
+  padding: 14px 20px;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
 .button_text:hover {
@@ -241,11 +238,13 @@
   .header-inner {
     margin: 0 25px;
   }
+
   /* メインテーマ */
   .main__theme {
     white-space: nowrap;
   }
 
+  /* WHAT WE CAN DO */
   .main__section_what {
     padding: 50px 0 25px 0;
   }
@@ -260,5 +259,53 @@
 
   .main__section_textbox {
     margin: 0 auto;
+  }
+
+  /* OUR LATEST WORK */
+  .works-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-link:nth-of-type(3n) {
+    margin-bottom: 80px;
+  }
+
+  .img-link:nth-of-type(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .img-link:nth-of-type(1) {
+    margin-right: 0;
+  }
+
+  .img-link:nth-of-type(2) {
+    margin-right: 0;
+  }
+
+  .img-link:nth-of-type(4) {
+    margin-right: 0;
+  }
+
+  .img-link:nth-of-type(5) {
+    margin-right: 0;
+  }
+
+  /* メールフォーム */
+  .email-form-inner {
+    display: block;
+    padding-top: 0;
+    height: auto;
+  }
+
+  .email-form_textbox {
+    margin-right: 0;
+    padding-bottom: 40px;
+  }
+
+  .email-form_button {
+    text-align: center;
+    padding: 0;
   }
 }
