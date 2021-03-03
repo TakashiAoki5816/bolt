@@ -50,7 +50,7 @@
 /* Bolt Theme */
 .main__theme {
   text-align: center;
-  padding: 250px;
+  padding: 320px 0 250px 0;
 }
 
 .bolt-theme {
@@ -359,5 +359,14 @@
     border: 1px solid #ddd;
     border-radius: 4px;
     color: #c0c0c0;
+  }
+
+  .hamburger_icon {
+    font-size: 25px;
+  }
+
+  /* メインテーマ */
+  .main__theme {
+    padding: 240px 0 130px 0;
   }
 }
