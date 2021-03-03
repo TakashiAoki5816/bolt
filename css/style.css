@@ -226,6 +226,10 @@
   background-color: #fff;
 }
 
+.sns-link {
+  display: inline-block;
+}
+
 /* footer */
 .footer {
   height: 61px;
@@ -381,5 +385,25 @@
 
   .bolt-subtheme {
     overflow-wrap: break-word;
+  }
+
+  /* WHAT WE CAN DO */
+  .main__section_textbox {
+    width: auto;
+  }
+
+  /* SNS */
+  .main_sns {
+    padding: 50px 15px;
+  }
+
+  .sns-link {
+    display: block;
+  }
+
+  .sns-box {
+    width: 100%;
+    height: 100px;
+    padding: 0;
   }
 }
