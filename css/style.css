@@ -89,9 +89,6 @@
 }
 
 /* OUR LATEST WORK */
-.section__works_inner {
-}
-
 .img-link {
   display: block;
   float: left;
@@ -236,4 +233,32 @@
   padding: 20px 0 25px 0;
   color: #fff;
   float: right;
+}
+
+/* レスポンシブデザイン（TAB） */
+@media screen and (max-width: 1199px) {
+  /* ヘッダー */
+  .header-inner {
+    margin: 0 25px;
+  }
+  /* メインテーマ */
+  .main__theme {
+    white-space: nowrap;
+  }
+
+  .main__section_what {
+    padding: 50px 0 25px 0;
+  }
+
+  .main__section_inner {
+    display: block;
+  }
+
+  .main__section_img {
+    margin-bottom: 20px;
+  }
+
+  .main__section_textbox {
+    margin: 0 auto;
+  }
 }
