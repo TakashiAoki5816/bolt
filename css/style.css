@@ -11,6 +11,8 @@
 /* Header */
 .header {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
 }
 
 .header-inner {
@@ -21,7 +23,7 @@
 }
 
 .logo {
-  color: #f2f2f2;
+  color: #7e7d7d;
   font-size: 40px;
 }
 
@@ -39,6 +41,10 @@
 .contact-link:hover {
   transition: 0.3s;
   color: #333;
+}
+
+.hamburger {
+  display: none;
 }
 
 /* Bolt Theme */
@@ -234,6 +240,10 @@
 
 /* レスポンシブデザイン（TAB） */
 @media screen and (max-width: 1199px) {
+  .inner {
+    max-width: 97%;
+  }
+
   /* ヘッダー */
   .header-inner {
     margin: 0 25px;
@@ -321,5 +331,33 @@
 
   .skills-box:last-child {
     padding-bottom: 100px;
+  }
+}
+
+/* レスポンシブ （SP） */
+@media screen and (max-width: 767px) {
+  .inner {
+    max-width: 97%;
+  }
+
+  /* ヘッダー */
+  .header-inner {
+    margin: 0 15px;
+  }
+
+  .bolt__contactbox {
+    display: none;
+  }
+
+  .logo {
+    font-size: 50px;
+  }
+  /* ハンバーガーメニュー  */
+  .hamburger {
+    display: block;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #c0c0c0;
   }
 }
