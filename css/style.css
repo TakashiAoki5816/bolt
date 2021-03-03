@@ -369,4 +369,17 @@
   .main__theme {
     padding: 240px 0 130px 0;
   }
+
+  .bolt-theme {
+    font-size: 80px;
+  }
+
+  .bolt-new-line {
+    display: block;
+    line-height: 1.5em;
+  }
+
+  .bolt-subtheme {
+    overflow-wrap: break-word;
+  }
 }
