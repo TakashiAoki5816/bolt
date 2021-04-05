@@ -8,13 +8,14 @@
   margin: 0 auto;
 }
 
-/* Header */
+/* ヘッダー */
 .header {
   background-color: #fff;
   position: fixed;
   width: 100%;
   /* imgが固定ヘッダーの上にこないように設定 */
   z-index: 10;
+  height: 80px;
 }
 
 .header-inner {
@@ -29,7 +30,7 @@
   font-size: 40px;
 }
 
-.bolt__contactbox {
+.bolt__contact_box {
   background-color: #74cfae;
   padding: 14px 12px;
 }
@@ -45,14 +46,16 @@
   color: #333;
 }
 
+/* ハンバーガーメニュー */
 .hamburger {
   display: none;
 }
 
-/* Bolt Theme */
+/* メインテーマ */
 .main__theme {
+  height: 100%;
   text-align: center;
-  padding: 320px 0 250px 0;
+  padding: 250px 0 250px 0;
 }
 
 .bolt-theme {
@@ -67,8 +70,8 @@
   color: #c0c0c0;
 }
 
-/* WHAT WE CAN DO? */
-.main__section_what {
+/* メインセクション */
+.main__section_title {
   background-color: #74cfae;
   padding-top: 50px;
   text-align: center;
