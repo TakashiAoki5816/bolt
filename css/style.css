@@ -13,6 +13,8 @@
   background-color: #fff;
   position: fixed;
   width: 100%;
+  /* imgが固定ヘッダーの上にこないように設定 */
+  z-index: 10;
 }
 
 .header-inner {
