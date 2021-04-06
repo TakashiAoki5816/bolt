@@ -60,7 +60,6 @@ body {
 
 /* メインテーマ */
 .main__theme {
-  height: 100%;
   text-align: center;
   padding: 250px 0 250px 0;
 }
@@ -68,7 +67,7 @@ body {
 .bolt-theme {
   color: #74cfae;
   font-size: 90px;
-  font-weight: 900;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -140,9 +139,9 @@ body {
   vertical-align: bottom;
 }
 
-/* ホバー時は１秒で不透明にする */
+/* ホバー時は0.3秒で不透明にする */
 .work_img:hover {
-  transition: 1s;
+  transition: 0.3s;
   opacity: 1;
 }
 
@@ -246,9 +245,6 @@ body {
 /* footer */
 .footer {
   background-color: #74cfae;
-}
-
-.copyright_box {
   padding: 20px 0 25px 0;
 }
 
@@ -289,6 +285,7 @@ body {
   .main__section_textbox {
     margin: 0 auto;
   }
+
   /* OUR LATEST WORK */
   .works-images {
     display: flex;
@@ -344,7 +341,7 @@ body {
     margin: 0 15px;
   }
 
-  .bolt__contactbox {
+  .bolt__contactBox {
     display: none;
   }
 
@@ -382,6 +379,11 @@ body {
     overflow-wrap: break-word;
   }
 
+  /* メールフォーム */
+  .form_box {
+    font-size: 20px;
+    padding: 20px 40px;
+  }
   /* WHAT WE CAN DO */
   .main__section_textbox {
     width: auto;
