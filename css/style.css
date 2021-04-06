@@ -169,6 +169,7 @@ body {
 }
 
 .email-form_text {
+  font-family: 'Raleway';
   line-height: 1.5em;
 }
 
@@ -305,6 +306,7 @@ body {
 
   /* メールフォーム */
   .email-form-inner {
+    width: 100%;
     display: block;
     margin-top: 0;
     height: auto;
@@ -328,10 +330,6 @@ body {
 
   .skill-box:last-child {
     margin-bottom: 0;
-  }
-
-  .skill-box:last-child {
-    padding-bottom: 88px;
   }
 }
 
