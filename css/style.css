@@ -390,15 +390,16 @@ body {
   }
 
   /* SNS */
-  .main_sns {
+  .main__section_sns_inner {
     padding: 50px 0;
   }
 
-  .work_img {
+  .sns-link {
     display: block;
+    margin: 0 15px;
   }
 
-  .work_img:hover {
+  .sns-link:hover {
     background-color: #fff;
   }
 }
