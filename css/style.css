@@ -306,21 +306,21 @@
 
   .email-form_button {
     text-align: center;
-    padding: 0;
+    margin: 40px 0 70px 0;
   }
 
   /* OUR SKILLS */
-  .skills-box {
+  .skill-box {
     display: block;
     margin: 0 0 88px 0;
   }
 
-  .skills-box:last-child {
+  .skill-box:last-child {
     margin-bottom: 0;
   }
 
-  .skills-box:last-child {
-    padding-bottom: 100px;
+  .skill-box:last-child {
+    padding-bottom: 88px;
   }
 }
 
