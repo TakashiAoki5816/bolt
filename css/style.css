@@ -99,9 +99,13 @@
 }
 
 /* OUR LATEST WORKS */
+.main__section__works {
+  padding: 60px 0 70px 0;
+}
+
 .section__works_title {
   text-align: center;
-  padding: 60px 0 40px 0;
+  margin-bottom: 40px;
   font-size: 24px;
 }
 
@@ -144,7 +148,7 @@
 /* メールフォーム */
 .email-form-inner {
   display: flex;
-  margin: 90px auto 70px auto;
+  margin: 90px auto 0 auto;
   width: 730px;
 }
 
