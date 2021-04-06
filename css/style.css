@@ -140,7 +140,7 @@ body {
 }
 
 /* ホバー時は0.3秒で不透明にする */
-.work_img:hover {
+.img_link:hover {
   transition: 0.3s;
   opacity: 1;
 }
@@ -237,7 +237,11 @@ body {
   margin: 0 auto;
 }
 
-.sns-box:hover {
+.sns-link {
+  display: inline-block;
+}
+
+.sns-link:hover {
   transition: 0.3s;
   background-color: #fff;
 }
