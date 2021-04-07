@@ -249,21 +249,26 @@ body {
   font-size: 0;
 }
 
-.sns-box {
-  padding: 30px 80px;
-  font-size: 40px;
-  color: #74cfae;
-  margin: 0 auto;
+.sns {
+  display: inline-block;
+  width: 185px;
 }
 
 .sns-link {
-  display: inline-block;
+  /* padding分の高さを認識させるためブロック要素に変更 */
+  display: block;
+  padding: 30px 0;
   transition: background-color 0.3s linear;
 }
 
 .sns-link:hover {
   background-color: #fff;
   transition: background-color 0.3s linear;
+}
+
+.sns-box {
+  color: #74cfae;
+  font-size: 40px;
 }
 
 /* footer */
