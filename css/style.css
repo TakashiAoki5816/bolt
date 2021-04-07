@@ -415,12 +415,15 @@ body {
   }
 
   /* SNS */
-  .main__section_sns_inner {
+  .main__section_sns {
     padding: 50px 0;
   }
 
+  .sns {
+    width: 100%;
+  }
+
   .sns-link {
-    display: block;
     margin: 0 15px;
   }
 
