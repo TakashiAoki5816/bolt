@@ -230,7 +230,7 @@ body {
 }
 
 /* SNS */
-.main__section_sns_inner {
+.main__section_sns {
   padding: 200px 0;
 }
 
@@ -263,7 +263,7 @@ body {
 
 .copyright {
   color: #fff;
-  float: right;
+  text-align: right;
 }
 
 /* レスポンシブデザイン（TAB） */
