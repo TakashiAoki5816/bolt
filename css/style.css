@@ -59,9 +59,12 @@ body {
 }
 
 /* メインテーマ */
-.main__theme {
+.main__theme_inner {
+  padding: 320px 0 250px 0;
+}
+
+.main__theme_textbox {
   text-align: center;
-  padding: 250px 0 250px 0;
 }
 
 .bolt-theme {
@@ -372,11 +375,6 @@ body {
 
   .bolt-theme {
     font-size: 80px;
-  }
-
-  .bolt-new-line {
-    display: block;
-    line-height: 1.5em;
   }
 
   .bolt-subtheme {
