@@ -132,18 +132,30 @@ body {
   margin-top: 40px;
 }
 
+.work {
+  float: left;
+}
+
+/* 4番目〜6番目の要素 */
+.work:nth-child(n + 4) {
+  margin-top: 80px;
+}
+
+/* 2・5番目の要素 */
+.work:nth-child(3n + 2) {
+  margin-left: 100px;
+}
+
+/* 3・6番目の要素 */
+.work:nth-child(3n) {
+  margin-left: 100px;
+}
+
 .img_link {
   /* 高さを付与させるためにインライン要素をブロック要素に変更 */
   display: block;
-  float: left;
   opacity: 0.7;
   transition: opacity 0.5s;
-}
-
-.work_img {
-  display: block;
-  /* 画像の下にできる隙間を解消させる */
-  vertical-align: bottom;
 }
 
 /* ホバー時は0.3秒で不透明にする */
@@ -152,14 +164,10 @@ body {
   transition: 0.3s;
 }
 
-/* 最初の３つの要素 */
-.img_link:nth-child(-n + 3) {
-  margin-bottom: 80px;
-}
-
-/* 2番目と5番目の要素 */
-.img_link:nth-child(3n + 2) {
-  margin: 0 100px;
+.work_img {
+  display: block;
+  /* 画像の下にできる隙間を解消させる */
+  vertical-align: bottom;
 }
 
 /* メールフォーム */
