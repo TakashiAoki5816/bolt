@@ -22,6 +22,10 @@ body {
   text-decoration: none;
 }
 
+.is-raleway {
+  font-family: 'Raleway';
+}
+
 /* ヘッダー */
 .header {
   background-color: #fff;
@@ -61,7 +65,7 @@ body {
 }
 
 /* メインテーマ */
-.main__theme_inner {
+.main__theme {
   padding: 320px 0 250px 0;
 }
 
@@ -76,7 +80,6 @@ body {
 }
 
 .bolt-subtheme {
-  font-family: 'Raleway';
   font-size: 30px;
   color: #c0c0c0;
   margin-top: 20px;
@@ -96,7 +99,6 @@ body {
 }
 
 .main__section_textbox {
-  font-family: 'Raleway';
   width: 750px;
   color: #fff;
 }
@@ -118,7 +120,6 @@ body {
 }
 
 .section__works_title {
-  font-family: 'Raleway';
   text-align: center;
   font-size: 24px;
 }
@@ -185,7 +186,6 @@ body {
 }
 
 .email-form_text {
-  font-family: 'Raleway';
   line-height: 1.5em;
 }
 
@@ -216,7 +216,6 @@ body {
 }
 
 .skills-title {
-  font-family: 'Raleway';
   color: #fff;
   font-size: 24px;
 }
