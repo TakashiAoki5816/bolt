@@ -171,8 +171,6 @@ body {
 
 .work_img {
   display: block;
-  /* 画像の下にできる隙間を解消させる */
-  vertical-align: bottom;
 }
 
 /* メールフォーム */
