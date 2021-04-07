@@ -226,11 +226,11 @@ body {
 
 .skill-box {
   display: inline-block;
-  margin-right: 180px;
+  margin-left: 180px;
 }
 
-.skill-box:last-child {
-  margin-right: 0;
+.skill-box:first-child {
+  margin-left: 0;
 }
 
 .skill-text {
