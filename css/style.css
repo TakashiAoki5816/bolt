@@ -137,6 +137,7 @@ body {
   display: block;
   float: left;
   opacity: 0.7;
+  transition: opacity 0.5s;
 }
 
 .work_img {
@@ -147,8 +148,8 @@ body {
 
 /* ホバー時は0.3秒で不透明にする */
 .img_link:hover {
-  transition: 0.3s;
   opacity: 1;
+  transition: 0.3s;
 }
 
 /* 最初の３つの要素 */
@@ -248,11 +249,12 @@ body {
 
 .sns-link {
   display: inline-block;
+  transition: background-color 0.3s linear;
 }
 
 .sns-link:hover {
-  transition: 0.3s;
   background-color: #fff;
+  transition: background-color 0.3s linear;
 }
 
 /* footer */
