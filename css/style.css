@@ -8,6 +8,14 @@ body {
   font-family: 'Lato';
 }
 
+a {
+  display: inline-block;
+}
+
+li {
+  display: inline-block
+}
+
 /* 共通クラス */
 /* inner config */
 .inner {
@@ -196,7 +204,6 @@ body {
 }
 
 .button_text {
-  display: inline-block;
   /* ソース中の改行を1つの半角スペースとして表示 */
   white-space: nowrap;
   transition: 0.3s;
@@ -227,7 +234,6 @@ body {
 }
 
 .skill-box {
-  display: inline-block;
   margin-left: 180px;
 }
 
@@ -252,7 +258,6 @@ body {
 }
 
 .sns {
-  display: inline-block;
   width: 185px;
 }
 
