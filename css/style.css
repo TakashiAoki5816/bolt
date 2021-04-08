@@ -54,10 +54,10 @@ body {
 .contact_link {
   color: #fff;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .contact_link:hover {
-  transition: 0.3s;
   color: #333;
 }
 
@@ -67,8 +67,12 @@ body {
 }
 
 /* メインテーマ */
+.main {
+  padding-top: 70px;
+}
+
 .main__theme {
-  padding: 320px 0 250px 0;
+  padding: 250px 0 250px 0;
 }
 
 .main__theme_textbox {
@@ -160,13 +164,12 @@ body {
   /* 高さを付与させるためにインライン要素をブロック要素に変更 */
   display: block;
   opacity: 0.7;
-  transition: opacity 0.5s;
+  transition: 0.3s;
 }
 
 /* ホバー時は0.3秒で不透明にする */
 .img_link:hover {
   opacity: 1;
-  transition: 0.3s;
 }
 
 .work_img {
@@ -197,11 +200,11 @@ body {
   display: inline-block;
   /* ソース中の改行を1つの半角スペースとして表示 */
   white-space: nowrap;
+  transition: 0.3s;
 }
 
 /* ホバー時に0.3秒でcolorを#333 */
 .button_text:hover {
-  transition: 0.3s;
   color: #333;
 }
 
@@ -263,7 +266,6 @@ body {
 
 .sns-link:hover {
   background-color: #fff;
-  transition: background-color 0.3s linear;
 }
 
 .sns-box {
