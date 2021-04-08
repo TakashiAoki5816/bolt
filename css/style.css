@@ -289,11 +289,6 @@ body {
     width: 97%;
   }
 
-  /* ヘッダー */
-  .header-inner {
-    margin: 0 25px;
-  }
-
   /* メインセクション */
   .main__section {
     padding: 50px 0 25px 0;
@@ -371,33 +366,31 @@ body {
   .hamburger {
     display: block;
     position: relative;
-    padding: 10px;
     width: 20px;
     height: 20px;
+    padding: 10px;
     border: 1px solid #ddd;
     border-radius: 4px;
   }
 
   .hamburger span {
     position: absolute;
-    background-color: #ddd;
+    left: 10px;
     width: 20px;
     height: 2px;
+    background-color: #ddd;
   }
 
-  .hamburger span:first-child {
+  .hamburger span:nth-of-type(1) {
     top: 10px;
-    left: 10px;
   }
 
-  .hamburger span:nth-child(n + 2) {
+  .hamburger span:nth-of-type(2) {
     top: 20px;
-    left: 10px;
   }
 
-  .hamburger span:last-child {
+  .hamburger span:nth-of-type(3) {
     top: 30px;
-    left: 10px;
   }
 
   /* メインテーマ */
